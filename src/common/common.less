@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.ivu-modal-body {
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+/*操作图标*/
+.operate-icon {
+  color: #606266;
+  font-size: 20px !important;
+  margin: auto 10px;
+
+  // 伪类 改变样式，& 符号 = 当前css的上一级。所以就会指向 .operate-icon 这个css
+  &:hover {
+    color: #227cff;
+    cursor: pointer;
+  }
+}
+
+// 覆盖富文本编辑器样式
+.vue-html5-editor img {
+  width: 100% !important;
+}
+
+/*银行卡 背景色*/
+.bank-card-bg {
+  width: 60px;
+  height: 30px;
+  display: inline-block;
+}
+
+/*列表 封面 图片*/
+.list-logo-img {
+  width: 100px;
+  margin-top: 5px;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.dis-flex {
+  display: flex;
+}
+
+.align-item-center {
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.dis-inline-block {
+  display: inline-block;
+}
+
+.pd-20 {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.float-right {
+  float: right;
+}
+
+.mg-top-10 {
+  margin-top: 10px;
+}
+
+.mg-bottom-10 {
+  margin-bottom: 10px;
+}
+
+.mg-right-20 {
+  margin-right: 20px;
+}
+
+.w-100 {
+  width: 100px;
+}
+
+.w-200 {
+  width: 200px;
+}
+
+.w-100b {
+  width: 100%!important;
+}
+
+.tx-center {
+  text-align: center;
+}
+
+.tx-right {
+  text-align: right;
+}
+
+.header-bar-bg {
+  background-color: white;
+}
