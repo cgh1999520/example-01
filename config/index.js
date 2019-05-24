@@ -11,10 +11,6 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-   /*  '/': { // 暂时不需要跨域
-        target: 'http://47.104.162.196:8014',
-        changeOrigin: true, // 如果接口跨域，需要进行这个参数配置
-      }*/
     },
 
     // Various Dev Server settings
